@@ -17,6 +17,10 @@ Install this plugin in the same environment as Datasette.
 
 This plugin will make a `basemap` database available containing OpenStreetMap tiles in the [mbtiles](https://github.com/mapbox/mbtiles-spec) format.
 
+## License
+
+The data bundled with this package is © OpenStreetMap contributors, licensed under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/). See [this page](https://www.openstreetmap.org/copyright) for more details.
+
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
