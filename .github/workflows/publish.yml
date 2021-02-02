@@ -50,8 +50,8 @@ jobs:
         pip install setuptools wheel twine
     - name: Download basemap.db
       run: |
-        wget https://static.simonwillison.net/static/2021/basemap-levels-0-to-6.db
-        mv basemap-levels-0-to-6.db datasette_basemap/data/basemap.db
+        wget https://static.simonwillison.net/static/2021/datasette-basemap-0-2.db
+        mv datasette-basemap-0-2.db datasette_basemap/data/basemap.db
     - name: Publish
       env:
         TWINE_USERNAME: __token__
