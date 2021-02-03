@@ -15,7 +15,7 @@ Install this plugin in the same environment as Datasette.
 
 ## Usage
 
-This plugin will make a `basemap` database available containing OpenStreetMap tiles in the [mbtiles](https://github.com/mapbox/mbtiles-spec) format. It is designed for use with the [datasette-tiles](https://datasette.io/plugins/datasette-tiles) tile server plugin.
+This plugin will make a `basemap` database available containing OpenStreetMap tiles for zoom levels 0-6 in the [mbtiles](https://github.com/mapbox/mbtiles-spec) format. It is designed for use with the [datasette-tiles](https://datasette.io/plugins/datasette-tiles) tile server plugin.
 
 ## Demo
 
